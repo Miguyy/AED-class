@@ -1,0 +1,5 @@
+Portugal;Europa
+Espanha;Europa
+Japão;Ásia
+China;Ásia
+Australia;Oceania

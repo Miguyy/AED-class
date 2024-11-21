@@ -1,5 +1,5 @@
 from PIL import Image
-pathImages="AED/RSF7/images/img1.jpg"
+pathImages="AED/RSF6/images/img1.jpg"
 newSize=(240,240)
 imagem=Image.new(size=newSize, mode= "RGB", color="white")
 pixelMap=imagem.load()

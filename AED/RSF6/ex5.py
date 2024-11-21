@@ -27,7 +27,7 @@ def addWindowFrame(input_image_path, output_image_path, frame_color=(0, 0, 255),
 
     image.show()
 
-input_image_path = "AED/RSF7/images/img1.jpg"
-framed_output_path = "AED/RSF7/images/framed_img1.jpg"
+input_image_path = "AED/RSF6/images/img1.jpg"
+framed_output_path = "AED/RSF6/images/framed_img1.jpg"
 
 addWindowFrame(input_image_path, framed_output_path)

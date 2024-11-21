@@ -1,7 +1,7 @@
 from PIL import Image
 from random import randint
 
-pathImages="AED/RSF7/images/img1.jpg"
+pathImages="AED/RSF6/images/img1.jpg"
 
 def imageArt():
     newSize=(400,400)
