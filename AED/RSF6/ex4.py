@@ -10,4 +10,4 @@ def imageGrayScale(input_image_path):
             gray = int(0.299 * red + 0.587 * green + 0.114 * blue)
             grayscale_image.putpixel((x, y), gray)
     grayscale_image.show()
-imageGrayScale("AED/RSF6/images/img1.jpg")
+imageGrayScale("AED/RSF7/images/img1.jpg")

@@ -8,5 +8,5 @@ def imageMoldura(input_image_path):
     image_com_moldura.show()
     return image_com_moldura
 
-imageMoldura("AED/RSF6/images/img1.jpg")
+imageMoldura("AED/RSF7/images/img1.jpg")
 
