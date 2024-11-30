@@ -17,6 +17,8 @@ def adicionar_producto():
         t = open(caminho_arquivo, "w", encoding="utf-8")
         t.close()
 
+    os.system('cls')
+
     t = open(caminho_arquivo, "r", encoding="utf-8")
     linhas = t.readlines()
     t.close()
@@ -38,6 +40,7 @@ def registar_producto():
     print("\t\t\t ID do producto \t\t\t Nome do producto \t\t\t Quantidade \t\t\t Preço unitário")
     print("------------------------------------------------------------------------------------------------------------------------------------------------------------------------")
 
+    os.system('cls')
     encontrar = False
     
     t = open(caminho_arquivo, "r", encoding="utf-8")
@@ -57,7 +60,7 @@ def registar_producto():
 
 def consultar_nome_producto():
     nome_producto = input("Indique o nome do producto: ")
-
+    os.system('cls')
     encontrar = False  
 
     t = open(caminho_arquivo, "r", encoding="utf-8")
@@ -83,7 +86,7 @@ def consultar_nome_producto():
 def actualizar_quantidade_producto():
     id_producto = input("Indique o ID do producto: ")
     nova_quantidade_producto = input(f"Indique a nova quantidade do producto com o ID {id_producto}: ")
-
+    os.system('cls')
     encontrar = False  
     linhas_atcualizadas = []  
 
@@ -108,7 +111,7 @@ def actualizar_quantidade_producto():
 
 def remover_producto():
     id_producto = input("Indique o ID do producto a remover: ")
-
+    os.system('cls')
     encontrar = False  
     linhas_restantes = []  
 
@@ -134,7 +137,7 @@ def remover_producto():
 def consultar_valorTotal_inventario():
     total=0
     listaPrecos=[]
-
+    os.system('cls')
     t = open(caminho_arquivo, "r", encoding="utf-8")
     linhas = t.readlines()
     t.close()
