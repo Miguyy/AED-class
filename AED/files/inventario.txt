@@ -1,0 +1,2 @@
+104;Producto D;70;15.00
+69;Producto X;20;9.00

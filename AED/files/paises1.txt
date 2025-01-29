@@ -1,0 +1,9 @@
+Portugal;Europa
+Espanha;Europa
+Japão;Ásia
+Suécia;Europa
+USA;América
+China;Ásia
+Austrália;Oceania
+Guiné-Bissau;África
+França;Europa

@@ -1,0 +1,7 @@
+Porto;30.0
+Maia;20.0
+Matosinhos;10.0
+Vila do Conde;15.0
+Póvoa de Varzim;21.0
+Gondomar;30.0
+Gaia;40.0
